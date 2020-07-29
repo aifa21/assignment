@@ -52,18 +52,18 @@ function brickCalculator(floor) {
 
 //function of tinyfriends
 function tinyFriend(name){
-if(name.length()==0){
+if(name.length==0){
 return "Number of name is empty."
 }
 else{
-    var tinyname=name[0];
-    for(var i=0;i<name.length();i++){
-        var currentname=name[i];
-        if(currentname.length<tinyname.length){
-            tinyname=currentname;
+    var tinyName=name[0];
+    for(var i=0;i<name.length;i++){
+        var currentName=name[i];
+        if(currentName.length<tinyName.length){
+            tinyName=currentName;
         }
     }
-    return tinyname;
+    return tinyName;
 }
 }
 //........program.......
